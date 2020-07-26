@@ -3,6 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: rgba(44, 32, 97, 0.301);
   }
 
   textarea{
@@ -42,7 +43,10 @@ body {
     background-color: blue;
     animation-duration: 3s;
   }
-  
+
+  button {
+    background-color: rgb(43, 129, 43);
+  }
   
   
   
