@@ -1,4 +1,4 @@
-# workday-Planner
+# Workday-Planner
 
 This is a work day planner that i designed with html bootstrap jquery and javascript. 
 This is a planner that covers the business hours of 9 - 5. 
