@@ -39,8 +39,6 @@ $('textarea').each(function (i,el){
 
 });
 
-//local storage section
-
 //saves plans to storage
 saveBox.on("click", function () {
 
