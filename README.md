@@ -1,5 +1,10 @@
 # workday-Planner
 
+This is a work day planner that i designed with html bootstrap jquery and javascript. 
+This is a planner that covers the business hours of 9 - 5. 
+You may place desired plans into the calendar so you wont forget about what you have to do today.
+
+
 User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
@@ -20,3 +25,7 @@ WHEN I click the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+
+Deployed:
+visit the app at -

@@ -6,7 +6,7 @@ document.querySelector("#currentDay").innerHTML = currentDay;
 //format time for input boxes
 let militaryTime = moment().format("HH");
 
-//cited: worked with tutor//
+//cited: worked with classmates//
 //set the attributes to its time input block
 $("#text9").attr("hour", moment("9:00 AM", "h:mm a").format("HH"));
 $("#text10").attr("hour", moment("10:00 AM", "h:mm a").format("HH"));
@@ -18,10 +18,9 @@ $("#text15").attr("hour", moment("3:00 AM", "h:mm a").format("HH"));
 $("#text16").attr("hour", moment("4:00 PM", "h:mm a").format("HH"));
 $("#text17").attr("hour", moment("5:00 PM", "h:mm a").format("HH"));
 
-
 $(document).ready(function(e) {
 //$(".container").find("textarea");
-console.log($(".container").find("textarea"))
+//console.log($(".container").find("textarea"))
 
 //input box color changes based on the hour of the day
 //works cited: worked on with tutor
@@ -45,12 +44,24 @@ $('textarea').each(function (i,el){
 
 /////local storage section
 
-//button for saving users input
-var saveBox = $(".fa-save");
-console.log(saveBox);
+//saves plans to storage
+saveBox.on("click", function () {
 
-var textBox = $('textarea');
-console.log(textBox);
+    $("textarea").each(function () {
+         // set a variable to select the textareas attributes
+        var hour = $(this).attr("hour");
+
+        //set a variable to select value of users input at certain hour
+        var plans = $(this).val();
+
+        //i saved the hour's plan to local storage
+        localStorage.setItem(hour, plans);
+
+        });
+    });
+
+
+});
 
 /*
 $('textarea').keypress(function () {
@@ -60,35 +71,6 @@ $('textarea').keypress(function () {
 
     const saveToStorage = localStorage.setItem(plans, hour);
     localStorage.getItem(plans);
+    
 
 });*/
-
-
-
-
-saveBox.on('click', function() {
-    //e.preventDefault();
-    $('textarea').each(function() {
-         // set a variable to select the textareas attributes
-        var hour = $(this).attr('hour');
-        //console.log(hour)
-        //set a variable to select value of users input at certain hour
-        var plans = $(this).val();
-        //i saved the hour's plan to local storage
-        localStorage.setItem(hour, plans);
-        //var hourInput = localStorage.getItem(hour)
-    });
-});
-
-function makePlans(i) {
-    //populate hours into local storage
-    $('textarea').each(function() {
-        var time = localStorage.getItem([i])
-    });
-   
-}
-makePlans();
-
-//write code to save plans to calendar
-});
-
