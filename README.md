@@ -29,3 +29,7 @@ THEN the saved events persist
 
 Deployed:
 visit the app at https://aram2142.github.io/Andres-Day-Planner/
+
+
+Pictures:
+![Screen Shot 2020-07-26 at 9 35 09 PM](https://user-images.githubusercontent.com/65634748/88497617-e99e6900-cf8e-11ea-8353-6f35cf59a5d6.png)
