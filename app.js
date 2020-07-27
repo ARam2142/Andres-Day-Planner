@@ -1,7 +1,6 @@
 //display current date and time in header
 var currentDay = moment().format("LLLL");
 document.querySelector("#currentDay").innerHTML = currentDay;
-///////////////////////////////////////////////////////////////
 
 //format time for input boxes
 let militaryTime = moment().format("HH");
@@ -19,8 +18,6 @@ $("#text16").attr("hour", moment("4:00 PM", "h:mm a").format("HH"));
 $("#text17").attr("hour", moment("5:00 PM", "h:mm a").format("HH"));
 
 $(document).ready(function(e) {
-//$(".container").find("textarea");
-//console.log($(".container").find("textarea"))
 
 //input box color changes based on the hour of the day
 //works cited: worked on with tutor
@@ -42,7 +39,7 @@ $('textarea').each(function (i,el){
 
 });
 
-/////local storage section
+//local storage section
 
 //saves plans to storage
 saveBox.on("click", function () {
@@ -59,7 +56,6 @@ saveBox.on("click", function () {
 
         });
     });
-
 
 });
 

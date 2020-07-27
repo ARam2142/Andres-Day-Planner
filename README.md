@@ -28,4 +28,4 @@ THEN the saved events persist
 
 
 Deployed:
-visit the app at -
+visit the app at https://aram2142.github.io/Andres-Day-Planner/
