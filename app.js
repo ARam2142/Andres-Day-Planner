@@ -57,14 +57,8 @@ saveBox.on("click", function () {
 
 });
 
-/*
-$('textarea').keypress(function () {
-    //var hour = $(this).attr('hour')
-    var plans = $(this).val();
-    console.log(hour)
-
-    const saveToStorage = localStorage.setItem(plans, hour);
-    localStorage.getItem(plans);
-    
-
-});*/
+//gets data from the local storage
+//recieved help from stackoverflow
+$('textarea').each(function() {
+    $(this).val(localStorage.getItem($(this).attr('hour')));
+});
