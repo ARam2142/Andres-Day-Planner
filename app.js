@@ -39,6 +39,8 @@ $('textarea').each(function (i,el){
 
 });
 
+var saveBox = $('fa-save');
+
 //saves plans to storage
 saveBox.on("click", function () {
 
@@ -58,7 +60,6 @@ saveBox.on("click", function () {
 });
 
 //gets data from the local storage
-//recieved help from stackoverflow
 $('textarea').each(function() {
     $(this).val(localStorage.getItem($(this).attr('hour')));
 });
