@@ -55,11 +55,8 @@ saveBox.on("click", function () {
         localStorage.setItem(hour, plans);
 
         });
+        
     });
 
 });
 
-//gets data from the local storage
-$('textarea').each(function() {
-    $(this).val(localStorage.getItem($(this).attr('hour')));
-});
