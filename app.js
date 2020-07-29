@@ -59,7 +59,7 @@ saveBox.on("click", function () {
         //i saved the hour's plan to local storage
         localStorage.setItem(hour, plans);
 
-        });
+        });  
         
     });
 
