@@ -51,6 +51,7 @@ saveBox.on("click", function () {
     $("textarea").each(function () {
          // set a variable to select the textareas attributes
         var hour = $(this).attr("hour");
+        console.log(hour)
 
         //set a variable to select value of users input at certain hour
         var plans = $(this).val();
