@@ -39,6 +39,10 @@ $('textarea').each(function (i,el){
 
 });
 
+$('textarea').each(function() {
+    $(this).val(localStorage.getItem($(this).attr('hour')));
+});
+
 var saveBox = $('fa-save');
 
 //saves plans to storage
@@ -57,6 +61,9 @@ saveBox.on("click", function () {
         });
         
     });
+
+
+
 
 });
 
