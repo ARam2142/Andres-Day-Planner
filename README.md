@@ -1,17 +1,18 @@
 # Workday-Planner
 
+# Background
 This is a work day planner that i designed with html bootstrap jquery and javascript. 
 This is a planner that covers the business hours of 9 - 5. 
 You may place desired plans into the calendar so you wont forget about what you have to do today.
 
 
-User Story
+# User Story:
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ______________________________________________________
 
-Acceptance Criteria
+# Acceptance Criteria
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -27,9 +28,13 @@ WHEN I refresh the page
 THEN the saved events persist
 
 
-Deployed:
+# Deployed:
 visit the app at https://aram2142.github.io/Andres-Day-Planner/
 
 
-Pictures:
+# Pictures:
 ![Screen Shot 2020-07-26 at 9 35 09 PM](https://user-images.githubusercontent.com/65634748/88497617-e99e6900-cf8e-11ea-8353-6f35cf59a5d6.png)
+
+# License:
+
+[![license information](https://img.shields.io/badge/license-MIT-blue)](https://aram2142.github.io/Code-Refactor/)
