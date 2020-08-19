@@ -11,22 +11,21 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ______________________________________________________
+# Technologies Used:
 
-# Acceptance Criteria
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+Bootstrap
 
+Jquery
+
+javascript
+
+CSS
+
+HTML
+
+# OutCome:
+
+This app was fairly simple to make. However there is more work that i have to do before it is officially complete. I do want to make the styling more attractive. I also want users to be able to save their plans for the current hour of the day.
 
 # Deployed:
 visit the app at https://aram2142.github.io/Andres-Day-Planner/
